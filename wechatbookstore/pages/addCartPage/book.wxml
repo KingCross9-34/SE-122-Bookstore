@@ -1,0 +1,19 @@
+<!--pages/book/book.wxml-->
+<view>
+  <view style="justify-content: center; margin-left: 1em">
+    <van-image  width="18rem" height="18rem" fit="contain" src="{{book.image}}" />
+  </view>
+  <view class="detail">
+    <view class="detail_text">{{book.bookname}}</view>
+    <view class="detail_text">Author: {{book.author}}</view>
+    <view class="detail_text">ISBN: {{book.isbn}}</view>
+    <view class="detail_text">Publication: {{book.publication}}</view>
+    <view class="detail_text">Price: ￥{{book.price/100}}</view>
+    <view class="detail_text">Stock: {{book.stock}}</view>
+    <view class="detail_text">{{book.detail}}</view>
+  </view>
+  <van-goods-action fixed = "true">
+    <van-goods-action-button text="加入购物车" type="warning"bind:click="addToChart"/>
+    <van-goods-action-button text="立即购买" bind:click="onClickButton"/>
+  </van-goods-action>
+</view>

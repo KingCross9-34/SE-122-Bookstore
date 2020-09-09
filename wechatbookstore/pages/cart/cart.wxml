@@ -1,0 +1,25 @@
+<!--pages/cart/cart.wxml-->
+<view>
+  <view fixed="true" style="display:flex">
+    <button type="warning" bindtap="remove">remove</button>
+    <button bindtap="buy">buy</button>
+  </view>
+  <checkbox-group bindchange="checkboxchange" style="margin-bottom:4em; margin-left: 2em">
+    <block wx:for="{{cart}}" wx:for-item="cartitem">
+      <checkbox value="{{cartitem.id}}">
+        <view style=" diaplay: flex;">
+          <van-image data-book='{{book}}' width="9rem" height="9rem" fit="contain" src="{{cartitem.book.image}}" /> 
+          <view style=" font-size: 35rpx;">{{cartitem.book.bookname}}×{{cartitem.num}}本</view>
+        </view>
+      </checkbox>
+    </block>
+  </checkbox-group>
+  
+  
+  <van-tabbar active="{{ active }}" bind:change="onChange">
+    <van-tabbar-item bind:click="showHome" icon="home-o">Mall</van-tabbar-item>
+    <van-tabbar-item icon="chat-o">Chat</van-tabbar-item>
+    <van-tabbar-item bind:click="showCart" icon="cart-o">Cart</van-tabbar-item>
+    <van-tabbar-item icon="setting-o">Settings</van-tabbar-item>
+  </van-tabbar>
+</view>

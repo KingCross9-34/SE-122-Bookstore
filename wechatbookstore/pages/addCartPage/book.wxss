@@ -1,0 +1,15 @@
+/* pages/book/book.wxss */
+.detail {
+  margin-bottom: 4em;
+}
+
+.detail_text{
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-wrap: break-word;
+  white-space: pre-line;
+  margin-left: 2em;
+  margin-right: 2em;
+}

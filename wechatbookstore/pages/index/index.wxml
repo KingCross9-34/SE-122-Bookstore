@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <van-cell-group>
+      <van-field bindblur="bindNameInput" label="Username" placeholder="Please input username."/>
+      <van-field bindblur="bindPasswordInput" password="true" label="Password" placeholder="Please input password" error-message="{{errorMessage}}" border= true />
+    </van-cell-group>
+  </view>
+  <view style="width:15rem; height:6rem; margin: 5rem 0 " >
+      <van-button bindtap="bindViewTap" type="primary" block>Login</van-button>
+  </view>
+</view>

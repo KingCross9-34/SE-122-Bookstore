@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/books/books",
+    "pages/addCartPage/book",
+    "pages/cart/cart",
+    "pages/orderinfo/orderinfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Book Store",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-image": "@vant/weapp/image",
+    "van-search": "@vant/weapp/search",
+    "van-goods-action": "@vant/weapp/goods-action",
+    "van-goods-action-icon": "@vant/weapp/goods-action-icon",
+    "van-goods-action-button": "@vant/weapp/goods-action-button",
+    "van-overlay": "@vant/weapp/overlay",
+    "van-tabbar": "@vant/weapp/tabbar",
+    "van-tabbar-item": "@vant/weapp/tabbar-item"
+  }
+}

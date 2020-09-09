@@ -1,0 +1,27 @@
+.input-detail {
+    width: 400px;
+    height: 250px;
+    white-space: pre-wrap;
+}
+
+.left {
+    float: left;
+}
+
+.coverpreview {
+}
+
+.infoinput {
+    float: right;
+    margin-left: 50px;
+    width: 400px;
+}
+
+.bookadd {
+    margin-top: 50px;
+}
+
+.bookadd-return {
+    margin-top: 30px;
+    width: 200px;
+}

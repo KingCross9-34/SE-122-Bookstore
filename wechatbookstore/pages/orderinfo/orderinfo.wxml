@@ -1,0 +1,15 @@
+<!--pages/orderinfo/orderinfo.wxml-->
+<view style="justify-cotent: center;margin-top: 1em; margin-left: 1em">
+  <view>
+    <text>This is your order information:</text>
+  </view>
+  <view style="margin-top: 1em">
+    <view>Order ID: {{info.orderid}}</view>
+    <view>Order time: {{info.ordertime}}</view>
+    <view style="margin-top: 1em">
+      <block wx:for="{{info.orderitem}}" wx:item="item">
+        <view>{{item.book.bookname}}×{{item.num}}本</view>
+      </block>
+    </view>
+  </view>
+</view>

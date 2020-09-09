@@ -1,0 +1,135 @@
+.bookdetail-page {
+    /*position: fixed;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*z-index: 99;*/
+    /*background-image: url("../assets/detail.jpg");*/
+}
+
+.bookdetail-header {
+    position: fixed;
+    z-index: 10;
+    max-width: 100%;
+    top: 0;
+    height: 80px;
+    background-color: wheat;
+    -webkit-box-shadow: 0 2px 6px #f0f1f2;
+    box-shadow: 0 2px 6px #f0f1f2;
+    width:100%;
+}
+
+.bookdetail-admin-header {
+    position: fixed;
+    z-index: 10;
+    max-width: 100%;
+    top: 0;
+    height: 80px;
+    background-color: #dddddd;
+    -webkit-box-shadow: 0 2px 6px #f0f1f2;
+    box-shadow: 0 2px 6px #f0f1f2;
+    width:100%;
+}
+
+.bookdetail-content {
+    position: relative;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: 90px;
+}
+
+.bookdetail-content-cover {
+    float: left;
+    height: 400px;
+}
+
+.bookdetail-content-wordsarea {
+    margin-left: 400px;
+    height: 340px;
+}
+
+.bookdetail-content-bookname {
+    /*position: fixed;*/
+    margin-top: 0;
+    height: 30px;
+    font-family: "Copperplate Gothic Light";
+}
+
+.bookdetail-content-others {
+    height: 20px;
+    font-family: "Copperplate Gothic Light";
+}
+
+.bookdetail-content-author {
+    /*position: fixed;*/
+    /*margin-top: 50px;*/
+    height: 20px;
+    font-family: "Copperplate Gothic Light";
+}
+
+.bookdetail-content-language {
+    font-family: "Copperplate Gothic Light";
+}
+
+.bookdetail-content-year {
+     font-family: "Copperplate Gothic Light";
+ }
+
+.bookdetail-content-price {
+    font-family: "Copperplate Gothic Light";
+}
+
+.bookdetail-content-isbn {
+    font-family: "Copperplate Gothic Light";
+}
+
+.bookdetail-content-publication {
+    font-family: "Copperplate Gothic Light";
+}
+
+.bookdetail-content-stock {
+    font-family: "Copperplate Gothic Light";
+}
+
+.bookdetail-buttonarea {
+    position: relative;
+    margin-left: 400px;
+    height: 60px;
+}
+
+.bookdetail-inputnum {
+    float: left;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+.bookdetail-button {
+    height: 50px;
+    width: 200px;
+    font-family: "Copperplate Gothic Light";
+    font-size: 24px;
+}
+
+.bookdetail-content-detail{
+    position: relative;
+    width: 1000px;
+}
+
+.bookdetail-content-detail-label {
+    font-family: "Copperplate Gothic Light";
+}
+
+.bookdetail-content-detail-text {
+    white-space: pre-wrap;
+}
+
+.text-detail{
+    height: 500px;
+    width: 500px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
